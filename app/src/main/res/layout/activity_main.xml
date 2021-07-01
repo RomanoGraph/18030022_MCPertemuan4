@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nomer Handphone"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="OPEN PHONE NUMBER" />
+
+    <EditText
+        android:id="@+id/edtMasukanUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Url"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnMasukanUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="OPEN BROWSER" />
+
+    <EditText
+        android:id="@+id/edtMasukanLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buka Lokasi"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnMasukanLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="OPEN LOKASI" />
+
+    <EditText
+        android:id="@+id/edtMasukanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Text"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnMasukanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="Share Text" />
+
+
+
+
+
+
+</LinearLayout>
